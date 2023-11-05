@@ -29,11 +29,6 @@ export const routes = [
     isShowHeader: true,
   },
   {
-    path: "/sign-in",
-    page: TypeProductPage,
-    isShowHeader: true,
-  },
-  {
     path: "/sign-up",
     page: SignInPage,
     isShowHeader: true,
