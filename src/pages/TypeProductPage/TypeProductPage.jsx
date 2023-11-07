@@ -7,8 +7,8 @@ import { WrapperNavbar, WrapperProducts } from "../TypeProductPage/style";
 const TypeProductPage = () => {
   const onChange = () => {};
   return (
-    <>
-      <div style={{ padding: "0 120px", background: "#efefef" }}>
+    <div style={{ width: "100%", background: "#efefef" }}>
+      <div style={{ flexWrap: "1270px", margin: "0 auto" }}>
         <Row
           style={{
             flexWrap: "nowrap",
@@ -27,9 +27,6 @@ const TypeProductPage = () => {
               <CardComponent />
               <CardComponent />
               <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
             </WrapperProducts>
             <Pagination
               defaultCurrent={2}
@@ -40,7 +37,7 @@ const TypeProductPage = () => {
           </Col>
         </Row>
       </div>
-    </>
+    </div>
   );
 };
 
